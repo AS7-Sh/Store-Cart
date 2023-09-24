@@ -24,6 +24,7 @@ https://ososs-test.netlify.app/
 * Redux Toolkit or Zustand: As a state management library
 * React Toastify: As a notifier library
 * Note: The test was built from scratch without using any thrid party libraries as requested, the code is also well documented to explain the main functionality
+* Note: The async request regarding purchase order isn't available in the fake Api but the whole process is well simulated
 
 ### Project Structure
 * Config folder: contains the config files for the project (urls file)
