@@ -1,0 +1,99 @@
+/*
+  Modal Css
+**/
+
+div.modal {
+  width: 50rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(18, 18, 18);
+  border-radius: 4px;
+  border: 1px solid #424242;
+  max-width: 95%;
+  z-index: 10;
+}
+
+div.modal div.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #424242;
+}
+
+div.modal div.modal-header i {
+  background-color: #d32f2f;
+  color: #fff;
+  padding: 0;
+  cursor: pointer;
+}
+
+div.modal div.modal-content {
+  padding: 1rem;
+  overflow-y: auto;
+  max-height: 60vh;
+  padding-bottom: 0;
+}
+
+div.modal div.modal-footer {
+  padding: 1rem;
+  border-top: 1px solid #424242;
+  display: flex;
+  justify-content: flex-end;
+}
+
+div.loader-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+  Loader Css
+**/
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*
+  Pagination Css
+**/
+
+div.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  position: sticky;
+  bottom: 0;
+  background-color: rgb(18, 18, 18);
+  border-top: 1px solid #424242;
+}
+
+div.pagination button:first-child {
+  margin-right: 2rem;
+}
