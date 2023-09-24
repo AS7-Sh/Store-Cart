@@ -13,7 +13,7 @@ npm create vite@latest my-react-app --template react
 * Run (npm run dev) and the project will be automatically available to run on your browser
 
 ### You can also visit the below link (the deployed project on netlify)
-
+https://ososs-test.netlify.app/
 
 ### How To Build The Application
 * Run (npm run build) to get the dist folder which includes the built files
@@ -23,7 +23,7 @@ npm create vite@latest my-react-app --template react
 * MUI: As a styling library
 * Redux Toolkit or Zustand: As a state management library
 * React Toastify: As a notifier library
-* Note: The test was built from scratch without using any thrid party libraries as requested
+* Note: The test was built from scratch without using any thrid party libraries as requested, the code is also well documented to explain the main functionality
 
 ### Project Structure
 * Config folder: contains the config files for the project (urls file)
